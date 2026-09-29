@@ -1,0 +1,61 @@
+# Dependencies
+node_modules/
+**/node_modules/
+.pnp
+.pnp.js
+
+# Testing / QA
+coverage/
+test-results/
+**/test-results/
+qa-audit.spec.cjs
+**/qa-audit.spec.cjs
+**/test-*.js
+**/*.test.*
+**/*.spec.*
+
+# Production / Build output
+build/
+dist/
+**/build/
+**/dist/
+
+# Logs
+*.log
+**/*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local uploads
+**/uploads/
+**/uploads/*
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Editor directories and files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+
+# Thesis and Academic Artifacts
+*.docx
+*.pptx
+*.mp4
+*.doc
+Acceptance_Letter.pdf
+Back_Page.pdf
+Certificates_Publication.pdf
+Front Page.pdf
+NyayaSetu- Automated Legal Document Analyzer.pdf
+PubLished_ResearchPaper.pdf
+Thesis/
+Dummy_Documents/
