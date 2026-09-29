@@ -1,0 +1,9 @@
+@import "tailwindcss";
+@config "../tailwind.config.js";
+
+@layer base {
+  /* Custom scrollbar for an editorial feel */
+  ::-webkit-scrollbar { width: 8px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb { background-color: #c3c6ce; border-radius: 4px; }
+}
